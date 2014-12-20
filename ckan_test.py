@@ -31,9 +31,9 @@ class CkanTest:
 		filters = {'temperature': 32}
 		self.ckan.delete_data(filters)
 
-server_address = 'http://202.121.178.214'
-api_key = 'dbf651ea-71cf-4c78-844a-8f7bf3db81e2'
-resource_id = '239ff538-27e3-4d77-be4b-42c94f1dc422'
+server_address = ''
+api_key = ''
+resource_id = ''
 
 ckan_test = CkanTest(server_address, api_key, resource_id)
 #ckan_test.create_datastore_test()
